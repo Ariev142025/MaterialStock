@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon --exec node src/index.js",
-    "start": "node src/index.js",
-    "seed": "node src/scripts/seed.js",
-    "migrate": "node src/scripts/migrate.js"
-  },
+  "build": "echo build complete",
+  "dev": "NODE_ENV=development nodemon --exec node src/index.js",
+  "start": "node src/index.js",
+  "seed": "node src/scripts/seed.js",
+  "migrate": "node src/scripts/migrate.js"
+},
   "dependencies": {
     "express": "^4.18.2",
     "pg": "^8.11.1",
